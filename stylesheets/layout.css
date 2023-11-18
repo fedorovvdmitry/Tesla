@@ -1,6 +1,8 @@
 body {
     background-color: #292929;
     font-family: 'Poppins', sans-serif;
+    display: block;
+    margin: 0 auto;
 }
 
 header {
@@ -51,7 +53,7 @@ header {
     -webkit-text-fill-color: transparent;
     position: absolute;
     z-index: -1;
-    top: 150px;
+    margin-top: 20px;
 }
 
 .button_buy {
