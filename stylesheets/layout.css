@@ -71,6 +71,7 @@ header {
 .buy_section {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 70px;
 }
 
@@ -84,6 +85,8 @@ header {
 .buy_section_container {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .buy_section_element h3 {

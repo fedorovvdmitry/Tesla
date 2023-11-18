@@ -1,3 +1,9 @@
+@media all and (max-width: 768px) {
+    .link_menu {
+	display: none; 
+    }
+}
+
 @media all and (min-width: 1224px) {
     /* Desktop */
 }
@@ -12,6 +18,21 @@
 
 @media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
     /* iPhone Portrait */
+    section > * { width: calc(100% - 40px); }
+    body img {
+        width: 80%;
+    }
+    body h1 {
+        font-size: 100px;
+    }
+    .buy_section_element {
+        margin-right: auto;
+        margin: 0 0 32px 0;
+    }
+    .dots {
+        margin: 32px 0 0 0;
+    }
+
 }
 
 @media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
