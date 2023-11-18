@@ -78,13 +78,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 32px;
 }
 
 .buy_section_container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 45%;
 }
 
 .buy_section_element h3 {
@@ -107,6 +106,7 @@ header {
     border: 2px solid #9B9B9B;
     width: 45px;
     height: 45px;
+    margin-left: 32px;
 }
 
 .circle:hover {
