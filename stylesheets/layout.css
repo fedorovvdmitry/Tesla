@@ -109,13 +109,17 @@ header {
     height: 45px;
 }
 
+.circle:hover {
+    border: 2px solid white;
+}
+
 .circle img {
     width: 20px;
 }
 
 .dots {
     display: flex;
-
+    cursor: not-allowed;
 }
 
 .dots div {
