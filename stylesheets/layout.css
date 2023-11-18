@@ -44,7 +44,7 @@ header {
 
 .name_car {
     font-size: 250px;
-    font-weight: 400;
+    font-weight: 600;
     background: linear-gradient(180deg, #FFF 0%, rgba(221, 221, 221, 0.84) 28.24%, rgba(41, 41, 41, 0.22) 72.73%);
     background-clip: text;
     -webkit-background-clip: text;
